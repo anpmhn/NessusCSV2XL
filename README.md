@@ -12,9 +12,9 @@ The script performs the following operations and creates an Excel file containin
 -	Creates an additional sheet with all identified open ports.
 
 ## Usage
-Copy the exported CSV file from Nessus to the same directory as the script.
+Copy the exported CSV file from Nessus to the same directory as the script.  
 Usage: python3 nessusipreport.py [csvfilename.csv]
 
 ## Installing required libraries
-pip3 install pandas
+pip3 install pandas  
 pip3 install openpyxl
