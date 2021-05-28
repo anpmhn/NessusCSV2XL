@@ -1,7 +1,6 @@
 #! /usr/bin/python3
 #**********************************************************************
 # Author            : Anoop Mohan
-# Date created      : April 2020
 #**********************************************************************
 '''
 	pip3 install pandas
@@ -51,7 +50,6 @@ def open_ports(df_csv):
     return (portlist)
 
 def write_excel(portlist):
-    #work_book=load_workbook(filename='template_report.xlsx')
     work_book = load_workbook(filename=template_report)
     work_sheet=work_book['openports']
     for r in dataframe_to_rows(portlist):
